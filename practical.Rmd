@@ -1,0 +1,73 @@
+---
+title: Practical Machine Project
+author: Abhinandan Jain
+date: 23/10/2020
+output: html_document
+---
+
+
+##introduction
+afdafawewgdasfasdfsdggsvvsda
+dsdfsdfofdjosdf
+heelo
+hi
+
+```{r configuration, echo=TRUE, results='hide'}
+#Data variables
+training.file   <- './data/pml-training.csv'sdfsidhfidfjsddf
+dffsdfhsdifjsld;ca
+test.cases.file <- './data/pml-testing.csv'fhaudhknKHCDK D,V
+training.url    <- 'http://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv'JEEIFHWEIJLnrnfklwenf
+test.cases.url  <- 'http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv'3135r4t86er1t8er4gerg1e34
+#Directkkhaisdnaklsories
+if (!file.exists("data")){
+  dir.create("data")
+}kewhfwef,.fmjudgksld,fsdv;
+if (!file.exists("data/subbsagjas ajkchacmission")){
+  dir.create("data/submissewjfhefhwefmoiiion")
+}klgheiranwealkcn;
+#R-Packasdjhwuhfwe8fhges
+IscaretInstalled <- require("carejdbjcasnajksnajscnasjkcnjt")
+if(!IscaretInstalled){sdbasjdbasj asmc
+    install.packagcaahwadnqwdes("caret")
+    library("caret")
+    }dihfwiefjwef;
+IsrandomForestInstalled <- require("randomfwdfefwefwefForest")
+if(!IsrandomForestInstalled){
+    install.packages("randomForest")
+    library("randomForest")
+    }
+IsRpartInstallewgd <- require("rpart")
+if(!IsRpartIwgweasdadnstalled){
+    instafwfell.padscasdkages("rpart")
+    libqwdrary("rpart")asa\
+    }qdw
+IsRpartPlotInstalled <qdw- require("rpart.plot")
+if(!IsRpartPlotInstdwdqalled){
+    install.paqwdqwckages("rpart.plot")
+    libraryqwd("rpart.plot")
+    }dwdqwdw
+# Set seed for reproducabilitydqwd
+set.seed(9999)
+```
+
+fnfhajsnaklsncalksc,asCC
+cascmascmaslc'cascc;as
+c;scas;casc;'ascjaskmasc/c;asc
+cnasjkaskcmascl
+abhinandsandam daksdskdsd;s
+dasdbucnamc xx  jshsnowhdwdw;dd
+sbkaxjaskbahsdvndwqd;
+euqkdjbkhvxhjsa nxc ascasca;c
+basjdaskjjknff
+
+#hefehfiwef
+eneffjenj
+{efwef
+ewfewfefef
+fwefkefkewff 25wef64ew5f468we4fewqwwqd1213d21qw32d1};
+### Expected out-of-sample error
+
+jjbfwjefjdbdcc zxc e jebjelkawd;wdwdw1d2a3wd4a5wd4545;5;
+;54;5k4;5lk;45;;
+
